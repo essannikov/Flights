@@ -1,0 +1,8 @@
+List of flights.
+Enter:
+0 - display the entire list of flights
+e - exit
+Also you can use the following filters. Exclude:
+1 - departures before the current time
+2 - there are segments with an arrival date before the departure date
+3 - the total time spent on the ground exceeds two hours.

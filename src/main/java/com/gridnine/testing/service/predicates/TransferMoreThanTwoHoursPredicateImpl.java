@@ -1,4 +1,4 @@
-package com.gridnine.testing.service;
+package com.gridnine.testing.service.predicates;
 
 import com.gridnine.testing.model.Flight;
 import com.gridnine.testing.model.Segment;

@@ -1,12 +1,15 @@
-package com.gridnine.testing.model;
+package com.gridnine.testing.model.impl;
+
+import com.gridnine.testing.model.Flight;
+import com.gridnine.testing.model.Segment;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FlightImpl implements Flight{
+public class FlightImpl implements Flight {
     private final List<Segment> segments;
 
-    FlightImpl(final List<Segment> segs) {
+    public FlightImpl(final List<Segment> segs) {
         segments = segs;
     }
 
